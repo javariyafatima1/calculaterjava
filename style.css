@@ -1,70 +1,88 @@
-body{
+body {
     background-image: url(./images/material-desing-color-1018.jpg);
     background-size: cover;
-}
-.btm{
-    background-color: rgb(43, 71, 80);
-    width: 130px;
-    border-radius: 30px;
-    color: white;
-    margin-top: 50px;
-    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-button{
-    width: 80px;
-    height: 50px;
-
+.main {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(85, 123, 127, 0.959);
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+    text-align: center;
 }
-h1{
+
+h1 {
     background-color: black;
     color: white;
-    width: 150px;
-    margin-left: 80px;
- padding-left: 40px;
-    height: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
-h2{
+h2 {
     color: rgb(222, 220, 220);
-    font-size: 18px;
-    margin-left: 20px;
-    margin-top: 20px;
+    font-size: 16px;
     background-color: rgb(66, 98, 108);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
 }
 
+.btm {
+    background-color: rgb(43, 71, 80);
+    width: 100%;
+    max-width: 150px;
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+}
 
-    .main{
-        width: 400px;
-        height: 550px;
-      
-        overflow: hidden;
-        background-color: rgba(85, 123, 127, 0.959);
-        border-radius: 10px;
-        box-shadow: 5px 20px 50px #000;
-        margin-left: 500px;
-        margin-top: 50px;
-        
+input {
+    width: 100%;
+    max-width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+span {
+    display: block;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 600px) {
+    .main {
+        width: 95%;
+        padding: 15px;
     }
-    input{
-        height: 30px;
-        border-radius: 10px;
-        margin-left: 20px;
+
+    h2 {
+        font-size: 14px;
     }
-    #heading{
-        color: white;
-        font-size: 20px;
+
+    .btm {
+        width: 100%;
+        max-width: 120px;
+        font-size: 14px;
+        padding: 8px;
     }
-    #heading1{
-        color: white;
-        font-size: 20px;
+
+    input {
+        width: 100%;
+        max-width: 180px;
     }
-    #heading2{
-        color: white;
-        font-size: 20px;
-    }
-    #heading3{
-        color: white;
-        font-size: 20px;
-    }
+}
