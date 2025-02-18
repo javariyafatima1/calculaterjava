@@ -1,0 +1,70 @@
+body{
+    background-image: url(./images/material-desing-color-1018.jpg);
+    background-size: cover;
+}
+.btm{
+    background-color: rgb(43, 71, 80);
+    width: 130px;
+    border-radius: 30px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+button{
+    width: 80px;
+    height: 50px;
+
+}
+h1{
+    background-color: black;
+    color: white;
+    width: 150px;
+    margin-left: 80px;
+ padding-left: 40px;
+    height: 50px;
+}
+
+h2{
+    color: rgb(222, 220, 220);
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgb(66, 98, 108);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+    .main{
+        width: 400px;
+        height: 550px;
+      
+        overflow: hidden;
+        background-color: rgba(85, 123, 127, 0.959);
+        border-radius: 10px;
+        box-shadow: 5px 20px 50px #000;
+        margin-left: 500px;
+        margin-top: 50px;
+        
+    }
+    input{
+        height: 30px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    #heading{
+        color: white;
+        font-size: 20px;
+    }
+    #heading1{
+        color: white;
+        font-size: 20px;
+    }
+    #heading2{
+        color: white;
+        font-size: 20px;
+    }
+    #heading3{
+        color: white;
+        font-size: 20px;
+    }
